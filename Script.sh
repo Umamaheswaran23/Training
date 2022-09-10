@@ -24,5 +24,5 @@ else
  2)
  echo "Value entered is 2";;
  *)
- echo "value enterd is greater than2";;
+ echo "value enterd is greater than 2";;
  esac
