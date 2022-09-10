@@ -8,3 +8,11 @@ Todate1=$(date +%F)
 echo " Today's Date is $Todate1"
 user1=$(who | wc -l)
 echo "number of users logged in $user1" 
+#if condition
+a=10
+b=12
+if ($a -gt $b);then
+ echo "A is greater"
+else
+ echo  "B is greater" 
+ fi
