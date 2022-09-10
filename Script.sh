@@ -20,9 +20,9 @@ else
  value=$1
  case $value in
  1)
- echo "Vlaue entered is 1";;
+ echo -e "\e[31m Vlaue entered is 1 \e[0m";;
  2)
- echo "Value entered is 2";;
+ echo -e "\e[33m Value entered is 2 \e[0m";;
  *)
- echo -e "\e[32m value enterd is greater than 2\e[0m";;
+ echo -e "\e[32m value enterd is greater than 2 \e[0m";;
  esac
