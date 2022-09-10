@@ -16,3 +16,13 @@ if ($a -gt $b);then
 else
  echo  "B is greater" 
  fi
+ #case
+ value=$1
+ case $value in
+ 1)
+ echo "Vlaue entered is 1";;
+ 2)
+ echo "Value entered is 2";;
+ *)
+ echo "value enterd is greater than2";;
+ esac
