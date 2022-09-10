@@ -4,5 +4,5 @@ echo " This is my first script"
 a=10
 echo "Value of A is $a"
 #print current date
-curr-date=$(Date + %f)
+curr-date=$(date + %f)
 echo " Today's Date is $curr-date"
