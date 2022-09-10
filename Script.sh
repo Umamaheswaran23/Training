@@ -24,5 +24,5 @@ else
  2)
  echo "Value entered is 2";;
  *)
- echo -e "/e[32m value enterd is greater than 2/e[0m";;
+ echo -e "\e[32m value enterd is greater than 2\e[0m";;
  esac
